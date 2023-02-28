@@ -96,11 +96,12 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'Hello World',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              'Hello World',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
             )
           ],
         ),
-      ),// This trailing comma makes auto-formatting nicer for build methods.
+      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
